@@ -1,0 +1,99 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="edu.uw.ee523.btdemo"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\sukhw\OneDrive\Desktop\Assignments523\assignment-5-6 arduino android\android\android-bt-src\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="23" />
+9-->C:\Users\sukhw\OneDrive\Desktop\Assignments523\assignment-5-6 arduino android\android\android-bt-src\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.BLUETOOTH" />
+11-->C:\Users\sukhw\OneDrive\Desktop\Assignments523\assignment-5-6 arduino android\android\android-bt-src\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\sukhw\OneDrive\Desktop\Assignments523\assignment-5-6 arduino android\android\android-bt-src\app\src\main\AndroidManifest.xml:5:22-65
+12    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+12-->C:\Users\sukhw\OneDrive\Desktop\Assignments523\assignment-5-6 arduino android\android\android-bt-src\app\src\main\AndroidManifest.xml:6:5-73
+12-->C:\Users\sukhw\OneDrive\Desktop\Assignments523\assignment-5-6 arduino android\android\android-bt-src\app\src\main\AndroidManifest.xml:6:22-71
+13    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+13-->C:\Users\sukhw\OneDrive\Desktop\Assignments523\assignment-5-6 arduino android\android\android-bt-src\app\src\main\AndroidManifest.xml:7:5-75
+13-->C:\Users\sukhw\OneDrive\Desktop\Assignments523\assignment-5-6 arduino android\android\android-bt-src\app\src\main\AndroidManifest.xml:7:22-73
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->C:\Users\sukhw\OneDrive\Desktop\Assignments523\assignment-5-6 arduino android\android\android-bt-src\app\src\main\AndroidManifest.xml:8:5-78
+14-->C:\Users\sukhw\OneDrive\Desktop\Assignments523\assignment-5-6 arduino android\android\android-bt-src\app\src\main\AndroidManifest.xml:8:22-76
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->C:\Users\sukhw\OneDrive\Desktop\Assignments523\assignment-5-6 arduino android\android\android-bt-src\app\src\main\AndroidManifest.xml:9:5-80
+15-->C:\Users\sukhw\OneDrive\Desktop\Assignments523\assignment-5-6 arduino android\android\android-bt-src\app\src\main\AndroidManifest.xml:9:22-78
+16    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+16-->C:\Users\sukhw\OneDrive\Desktop\Assignments523\assignment-5-6 arduino android\android\android-bt-src\app\src\main\AndroidManifest.xml:10:5-73
+16-->C:\Users\sukhw\OneDrive\Desktop\Assignments523\assignment-5-6 arduino android\android\android-bt-src\app\src\main\AndroidManifest.xml:10:22-70
+17
+18    <uses-feature
+18-->C:\Users\sukhw\OneDrive\Desktop\Assignments523\assignment-5-6 arduino android\android\android-bt-src\app\src\main\AndroidManifest.xml:11:5-12:79
+19        android:name="android.hardware.bluetooth_le"
+19-->C:\Users\sukhw\OneDrive\Desktop\Assignments523\assignment-5-6 arduino android\android\android-bt-src\app\src\main\AndroidManifest.xml:12:9-53
+20        android:required="true" />
+20-->C:\Users\sukhw\OneDrive\Desktop\Assignments523\assignment-5-6 arduino android\android\android-bt-src\app\src\main\AndroidManifest.xml:12:54-77
+21
+22    <application
+22-->C:\Users\sukhw\OneDrive\Desktop\Assignments523\assignment-5-6 arduino android\android\android-bt-src\app\src\main\AndroidManifest.xml:14:5-30:19
+23        android:allowBackup="true"
+23-->C:\Users\sukhw\OneDrive\Desktop\Assignments523\assignment-5-6 arduino android\android\android-bt-src\app\src\main\AndroidManifest.xml:15:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.7.0] C:\Users\sukhw\.gradle\caches\transforms-3\adacc4bbdca3c037c01e5031782c646c\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+25        android:debuggable="true"
+26        android:extractNativeLibs="false"
+27        android:icon="@mipmap/ic_launcher"
+27-->C:\Users\sukhw\OneDrive\Desktop\Assignments523\assignment-5-6 arduino android\android\android-bt-src\app\src\main\AndroidManifest.xml:16:9-43
+28        android:label="@string/app_name"
+28-->C:\Users\sukhw\OneDrive\Desktop\Assignments523\assignment-5-6 arduino android\android\android-bt-src\app\src\main\AndroidManifest.xml:17:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->C:\Users\sukhw\OneDrive\Desktop\Assignments523\assignment-5-6 arduino android\android\android-bt-src\app\src\main\AndroidManifest.xml:18:9-54
+30        android:supportsRtl="true"
+30-->C:\Users\sukhw\OneDrive\Desktop\Assignments523\assignment-5-6 arduino android\android\android-bt-src\app\src\main\AndroidManifest.xml:19:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.BTDemo" >
+32-->C:\Users\sukhw\OneDrive\Desktop\Assignments523\assignment-5-6 arduino android\android\android-bt-src\app\src\main\AndroidManifest.xml:20:9-44
+33        <activity
+33-->C:\Users\sukhw\OneDrive\Desktop\Assignments523\assignment-5-6 arduino android\android\android-bt-src\app\src\main\AndroidManifest.xml:21:9-29:20
+34            android:name="edu.uw.ee523.btdemo.MainActivity"
+34-->C:\Users\sukhw\OneDrive\Desktop\Assignments523\assignment-5-6 arduino android\android\android-bt-src\app\src\main\AndroidManifest.xml:22:13-41
+35            android:exported="true" >
+35-->C:\Users\sukhw\OneDrive\Desktop\Assignments523\assignment-5-6 arduino android\android\android-bt-src\app\src\main\AndroidManifest.xml:23:13-36
+36            <intent-filter>
+36-->C:\Users\sukhw\OneDrive\Desktop\Assignments523\assignment-5-6 arduino android\android\android-bt-src\app\src\main\AndroidManifest.xml:24:13-28:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->C:\Users\sukhw\OneDrive\Desktop\Assignments523\assignment-5-6 arduino android\android\android-bt-src\app\src\main\AndroidManifest.xml:25:17-69
+37-->C:\Users\sukhw\OneDrive\Desktop\Assignments523\assignment-5-6 arduino android\android\android-bt-src\app\src\main\AndroidManifest.xml:25:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->C:\Users\sukhw\OneDrive\Desktop\Assignments523\assignment-5-6 arduino android\android\android-bt-src\app\src\main\AndroidManifest.xml:27:17-77
+39-->C:\Users\sukhw\OneDrive\Desktop\Assignments523\assignment-5-6 arduino android\android\android-bt-src\app\src\main\AndroidManifest.xml:27:27-74
+40            </intent-filter>
+41        </activity>
+42
+43        <provider
+43-->[androidx.emoji2:emoji2:1.0.0] C:\Users\sukhw\.gradle\caches\transforms-3\0598df94f460c67e853f90789c9d40d1\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+44            android:name="androidx.startup.InitializationProvider"
+44-->[androidx.emoji2:emoji2:1.0.0] C:\Users\sukhw\.gradle\caches\transforms-3\0598df94f460c67e853f90789c9d40d1\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+45            android:authorities="edu.uw.ee523.btdemo.androidx-startup"
+45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\sukhw\.gradle\caches\transforms-3\0598df94f460c67e853f90789c9d40d1\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+46            android:exported="false" >
+46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\sukhw\.gradle\caches\transforms-3\0598df94f460c67e853f90789c9d40d1\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+47            <meta-data
+47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\sukhw\.gradle\caches\transforms-3\0598df94f460c67e853f90789c9d40d1\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+48                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\sukhw\.gradle\caches\transforms-3\0598df94f460c67e853f90789c9d40d1\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+49                android:value="androidx.startup" />
+49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\sukhw\.gradle\caches\transforms-3\0598df94f460c67e853f90789c9d40d1\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+50            <meta-data
+50-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\sukhw\.gradle\caches\transforms-3\c4217aea2ca3d9a23241dc893df048d3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+51                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+51-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\sukhw\.gradle\caches\transforms-3\c4217aea2ca3d9a23241dc893df048d3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+52                android:value="androidx.startup" />
+52-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\sukhw\.gradle\caches\transforms-3\c4217aea2ca3d9a23241dc893df048d3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+53        </provider>
+54    </application>
+55
+56</manifest>

@@ -1,0 +1,34 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable ic_baseline_bluetooth_connected_24
+drawable ic_baseline_bluetooth_disabled_24
+drawable ic_baseline_bluetooth_searching_24
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id button_connect
+id button_disconnect
+id button_scan
+id characteristics
+id device_address
+id device_name
+id layout
+id recyclerView_devices
+id scrollView_devices
+id textView_status
+layout activity_main
+layout listitem_device
+layout listitem_service
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string unknown_characteristic
+string unknown_device
+string unknown_service
+style Theme.BTDemo
