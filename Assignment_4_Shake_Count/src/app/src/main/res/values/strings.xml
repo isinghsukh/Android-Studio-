@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Shake and Count</string>
+    <string name="no_of_shakes">Shake Counts</string>
+    <string name="value">Value</string>
+    <string name="stop">STOP</string>
+    <string name="_0">0</string>
+    <string name="enter_the_limit">Enter the Limit!!</string>
+    <string name="ok">OK</string>
+    <string name="shake_the_device_10_times_to_play_a_tune">Shake atleast 10 times for a tone</string>
+</resources>
